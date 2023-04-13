@@ -26,6 +26,10 @@ requirements:
     - scipy
     - pytorch
     - torchvision
+    - moleculekit
+    - networkx
+    - pandas
+    - tqdm
 
 test:
   imports:
