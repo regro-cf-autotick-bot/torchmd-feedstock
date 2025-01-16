@@ -1,5 +1,5 @@
 {% set name = "torchmd" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.4" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/torchmd-{{ version }}.tar.gz
-  sha256: 30d6898fea4cd53ad92b29834fec168802e3056fb654ca316d50d75daa3060a3
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/torchmd-{{ version }}.tar.gz
+  sha256: 35d8fd8dd288ab5632e324f8e8d567569d732f94a0fb809f357335f6dee3a141
 
 build:
   number: 0
